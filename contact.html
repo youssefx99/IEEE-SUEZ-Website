@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IEEE SUSB</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+    <header class="navigation-bar">
+      <div class="logo">
+        <a href="/index.html" class="nav-link"
+          ><img src="/images/logo.png" alt=""
+        /></a>
+      </div>
+      <div class="links">
+        <a href="/index.html" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Events</a>
+        <a href="/communities.html" class="nav-link">Committees</a>
+        <a href="/about.html" class="nav-link">About Us</a>
+        <a href="/contact.html" class="nav-link">Contact us</a>
+      </div>
+    </header>
+
+    <div id="" class="contact_page">
+      <section class="contact-bk">
+        <h1>Contact US</h1>
+      </section>
+      <section class="map">
+        <h1>WE ARE HERE</h1>
+        <div class="g-map" id="themap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.3704963312375!2d32.497902675122724!3d29.99751627494722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14562f1b65602eab%3A0x593edae01e57c240!2sSuez%20University!5e0!3m2!1sen!2seg!4v1681879835403!5m2!1sen!2seg"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="sub-data">
+        <h1>WE'D LOVE TO HEAR YOU</h1>
+        <form class="sheetform" action="/submit-data" method="post">
+          <div class="the-data">
+            <div class="element">
+              <label for="name">Name <span>*</span></label
+              ><br />
+              <input
+                required
+                id="name"
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div class="element">
+              <label for="mail">Mail <span>*</span></label
+              ><br />
+              <input
+                required
+                id="mail"
+                type="email"
+                name="email"
+                placeholder="example@example-mail.com"
+              />
+            </div>
+            <div class="element">
+              <label for="subject">Subject <span>*</span></label
+              ><br />
+              <input
+                required
+                id="subject"
+                type="text"
+                name="subject"
+                placeholder="Email Subject"
+              />
+            </div>
+            <div class="element">
+              <label for="comment">Comment <span>*</span></label
+              ><br />
+              <textarea
+                required
+                name="message"
+                id="comment"
+                cols="30"
+                rows="10"
+                placeholder="Enter your message here"
+              ></textarea>
+            </div>
+            <div class="element">
+              <button class="submit" type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+    <footer class="foot">
+      <span></span>
+      <div class="final">
+        <div class="con"><img src="/images/logo.png" alt="" /></div>
+        <div class="con">
+          <h3>Follow US</h3>
+          <div class="social">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="con">
+          <h3>Contact Us</h3>
+          <div class="home">
+            <i class="fa fa-home"></i>
+            <p>fuclty of suez</p>
+          </div>
+          <div class="mail">
+            <i class="fa fa-envelope"></i>
+            <a href="seue@gamil.com">IEEE_suez</a>
+          </div>
+        </div>
+      </div>
+      <span></span>
+      <p class="copyright">
+        Copyrights © 2023 All Rights Reserved by IEEE Suez Student Branch.
+      </p>
+    </footer>
+    <script src="/logic.js"></script>
+  </body>
+</html>
